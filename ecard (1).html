@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas E-Card</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #ff7f50, #ffe4b5);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .ecard-container {
+      width: 400px;
+      height: 600px;
+      border-radius: 20px;
+      background: #ffffff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .ecard-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ff6347;
+      text-align: center;
+      margin-bottom: 10px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    svg {
+      width: 100%;
+      height: auto;
+    }
+
+    .message-box {
+      font-size: 16px;
+      color: #333333;
+      text-align: center;
+      margin-top: 10px;
+      padding: 10px;
+      line-height: 1.8;
+    }
+
+    .footer {
+      font-size: 14px;
+      color: #555555;
+      margin-top: auto;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ecard-container">
+    <div class="ecard-title">Merry Christmas!</div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+      <!-- Background -->
+      <rect width="400" height="400" fill="#ffe4b5" />
+
+      <!-- Tree -->
+      <polygon points="200,50 160,150 240,150" fill="#008000" />
+      <polygon points="200,100 140,200 260,200" fill="#008000" />
+      <polygon points="200,170 120,270 280,270" fill="#008000" />
+      <rect x="190" y="270" width="20" height="50" fill="#8b4513" />
+
+      <!-- Ornaments -->
+      <circle cx="200" cy="130" r="8" fill="#ff6347" />
+      <circle cx="170" cy="190" r="8" fill="#ff4500" />
+      <circle cx="230" cy="190" r="8" fill="#ffd700" />
+      <circle cx="150" cy="240" r="8" fill="#ff6347" />
+      <circle cx="250" cy="240" r="8" fill="#ff4500" />
+
+      <!-- Star -->
+      <polygon points="200,35 195,50 205,50" fill="#ffdf00" />
+      <polygon points="200,50 190,45 210,45" fill="#ffdf00" />
+
+      <!-- Gifts -->
+      <rect x="140" y="300" width="40" height="30" fill="#ff4500" />
+      <line x1="160" y1="300" x2="160" y2="330" stroke="#ffffff" stroke-width="2" />
+      <line x1="140" y1="315" x2="180" y2="315" stroke="#ffffff" stroke-width="2" />
+
+      <rect x="220" y="300" width="40" height="30" fill="#4682b4" />
+      <line x1="240" y1="300" x2="240" y2="330" stroke="#ffffff" stroke-width="2" />
+      <line x1="220" y1="315" x2="260" y2="315" stroke="#ffffff" stroke-width="2" />
+    </svg>
+
+    <div class="message-box">
+      Dear Mom and Dad,<br><br>
+      As you both grow older, I promise to treat you with the same love, respect, and care you've always shown me. You’ve been my guiding stars, and I will continue to strive to make you proud—just as you’ve made me proud every single day of my life.<br><br>
+      Thank you for being the most amazing parents anyone could ask for. Your presence in my life is a gift, and I will treasure you both forever.<br><br>
+      With all my love,<br>
+      <strong>Judelyn</strong>
+    </div>
+
+    <div class="footer">
+      ❄️ Designed with love | 2024 ❄️
+    </div>
+  </div>
+</body>
+
+</html>
